@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTableMakersTable extends Migration
+class CreateTableProductImagesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,12 @@ class CreateTableMakersTable extends Migration
      */
     public function up()
     {
-        Schema::create('makers.', function (Blueprint $table) {
+        Schema::create('product_images.', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
-            $table->string('code');
-            $table->string('keyword');
-            $table->tinyInteger('status');
-            $table->date('created_at');
+            $table->string('product_id',11);
+            $table->string('file_name',100);
+            $table->date('creat_at');
+            $table->timestamps('update_at');
         });
     }
 
@@ -30,6 +29,6 @@ class CreateTableMakersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('makers.');
+        Schema::dropIfExists('product_images.');
     }
 }
