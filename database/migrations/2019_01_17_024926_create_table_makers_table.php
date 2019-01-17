@@ -18,7 +18,7 @@ class CreateTableMakersTable extends Migration
             $table->string('name');
             $table->string('code');
             $table->string('keyword');
-            $table->tinyInteger('status');
+            $table->tinyInteger('status')->default('0');
             $table->date('created_at');
         });
     }

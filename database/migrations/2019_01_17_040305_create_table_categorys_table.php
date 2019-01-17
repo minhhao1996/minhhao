@@ -19,9 +19,9 @@ class CreateTableCategorysTable extends Migration
             $table->string('name', 50);
             $table->string('icon', 100);
             $table->integer('local', 10);
-            $table->tinyInteger('status',2);
+            $table->tinyInteger('status',1)->nullable();
             $table->date('create_at');
-            $table->timestamps('update_at');
+            $table->timestamps('update_at')->nullable();;
         });
     }
 

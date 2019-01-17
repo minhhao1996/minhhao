@@ -18,7 +18,7 @@ class CreateTableProductImagesTable extends Migration
             $table->string('product_id',11);
             $table->string('file_name',100);
             $table->date('creat_at');
-            $table->timestamps('update_at');
+            $table->timestamps('update_at')->nullable();;
         });
     }
 
