@@ -1,0 +1,64 @@
+.input_sr{
+    width: 40%;
+    height: 40px;
+    border: 1px solid #d2d6de;
+    float: left;
+}
+.input_ca{
+    margin-left: 50%;
+
+}
+.input_ca .cat_button{
+    height: 40px;
+    width: 50px;
+}
+.n0kmu input{
+    position: absolute;
+    margin-left: 10px;
+    border: none;
+    height: 38px;
+    width: 25%;
+}
+.input_sr ._1hZPO{
+    background: none;
+    border: none;
+    height: 38px;
+    width: 45px;
+    font-size: 20px;
+    float: right;
+    position: relative!important;
+}
+
+.text-center .maudo{
+    color: red;
+}
+.product-av{
+    height: 80px;
+    margin-top: 10px;
+}
+.image-product{
+    margin-top: 10px;
+    border: 1px solid #3d4852;
+    border-radius: 10px ;
+    position: relative;
+    height: 100px;
+}
+.admin-pro{
+    image-rendering: auto;
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+.product-close{
+    position: absolute;
+    font-size: 20px;
+    top: 1px;
+    right: 5px;
+}
+.cat-control{
+    width: 60%;
+    height: 40px;
+}
+
